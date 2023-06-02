@@ -34,7 +34,10 @@ public class FilterDemo01 {
       */
 
       // With Streams
-      evenNumberList = numberList.stream().filter(n -> n % 2 == 0).collect(Collectors.toList());
-      System.out.println(evenNumberList);
+      /*evenNumberList = numberList.stream().filter(n -> n % 2 == 0).collect(Collectors.toList());
+      System.out.println(evenNumberList);*/
+
+      // Una forma más
+      numberList.stream().filter(n -> n % 2 == 0).forEach(n -> System.out.println(n));
    }
 }
