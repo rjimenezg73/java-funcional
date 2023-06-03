@@ -1,9 +1,8 @@
-package com.java.streams.filter;
+package com.java.stream.filter;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collectors;
 
 /**
  * Collection - To represent a group of data/objects as simple entity.

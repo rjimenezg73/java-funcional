@@ -1,9 +1,8 @@
-package com.java.streams.filter;
+package com.java.stream.filter;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class FilterDemo02 {
    public static void main(String[] args) {

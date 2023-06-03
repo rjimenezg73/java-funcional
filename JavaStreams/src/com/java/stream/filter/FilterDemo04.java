@@ -1,4 +1,4 @@
-package com.java.streams.filter;
+package com.java.stream.filter;
 
 import java.util.ArrayList;
 import java.util.List;
